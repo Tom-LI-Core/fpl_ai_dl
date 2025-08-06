@@ -3,7 +3,7 @@ requests
 beautifulsoup4
 lxml
 understatapi
-pulp
+pulp          # <— add this line
 torch
 torchvision
 xgboost
