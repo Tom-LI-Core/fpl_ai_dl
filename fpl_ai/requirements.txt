@@ -1,0 +1,10 @@
+pandas
+requests
+beautifulsoup4
+lxml
+understatapi
+pulp
+torch
+torchvision
+xgboost
+pytest
