@@ -1,10 +1,18 @@
+%%bash
+# one-time: create the file in the repo root
+cat > requirements.txt <<'REQ'
 pandas
 requests
 beautifulsoup4
 lxml
 understatapi
-pulp          # <— add this line
+pulp
 torch
 torchvision
 xgboost
 pytest
+REQ
+
+git add requirements.txt
+git commit -m "Add requirements.txt with core deps"
+git push
